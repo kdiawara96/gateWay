@@ -1,0 +1,24 @@
+#On specifie le port du gateway
+server:
+  port: 8088
+  #Le nom de l'application
+spring:
+  application:
+    name: gateway-service
+    #ici nous allons specifier les routes des micro-services
+  cloud:
+    #désactiver l'enregistrement parce qu'on na pas créer de discovery service
+    discovery:
+      enabled: false
+    # gateway:
+    #  routes:
+    #       - id: r1
+    #       # le port du micro service
+    #       uri: http://localhost:8082
+    #       predicates:
+    #         # le chemain d'accès
+    #          - Path= /customerses/**
+    #     - id: r2
+    #      uri: http://localhost:8081
+    #      predicates:
+    #     - Path= /productses/**
