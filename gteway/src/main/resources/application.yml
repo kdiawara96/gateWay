@@ -9,7 +9,7 @@ spring:
   cloud:
     #désactiver l'enregistrement parce qu'on na pas créer de discovery service
     discovery:
-      enabled: false
+      enabled: true
     # gateway:
     #  routes:
     #       - id: r1
