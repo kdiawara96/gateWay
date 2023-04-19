@@ -1,13 +1,7 @@
 package org.hours.customerservice;
 
-import java.util.List;
-import org.hours.customerservice.Models.Customers;
-import org.hours.customerservice.Repository.CustomersRepository;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 
 @SpringBootApplication
 public class CustomerServiceApplication {
