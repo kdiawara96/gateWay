@@ -20,6 +20,7 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @NoArgsConstructor
+@AllArgsConstructor
 @Builder
 
 public class ProductItem {
